@@ -16,7 +16,7 @@ const router = require("./router/auth-router");
 const errorMiddleware = require("./middlewares/error.middleware");
 
 const corsOptions = {
-  origin: ["http://localhost:3000","http://localhost:5173/"],
+  origin: ["https://full-stack-trading-platform-frontend.onrender.com/","http://localhost:5173/"],
   methods: "GET , POST, PUT, DELETE, PATCH, HEAD",
   credentials: true,
 };

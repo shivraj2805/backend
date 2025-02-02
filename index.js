@@ -227,6 +227,11 @@ app.post("/newOrder", async (req, res) => {
   res.send("Order saved!");
 });
 
+app.get("/health", (req, res) => {
+  res.status(200).send("Server is healthy!");
+});
+
+
 
 
 app.listen(PORT, () => {
